@@ -3,8 +3,12 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    document.title = "Orlando's Portfolio";
+  }, []);
   return (
     <div className="home">
       <div className="about">

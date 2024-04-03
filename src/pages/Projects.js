@@ -3,8 +3,12 @@ import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
 
 import "../styles/Projects.css";
+import { useEffect } from "react";
 
 function Projects() {
+  useEffect(() => {
+    document.title = "My Projects";
+  }, []);
   return (
     <div className="projects">
       <h1> My Personal Projects</h1>

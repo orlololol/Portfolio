@@ -5,9 +5,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
-import WorkIcon from "@material-ui/icons/Work";
+import { useEffect } from "react";
 
 function Experience() {
+  useEffect(() => {
+    document.title = "My Experience";
+  }, []);
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
