@@ -8,12 +8,21 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
+        <h2> Hi, I'm Orlando</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <p>
+            An undergraduate student at McGill University with a passion for
+            learning and creating.
+          </p>
+          <a href="mailto: orlandoqiu@gmail.com">
+            <EmailIcon />
+          </a>
+          <a href="https://www.linkedin.com/in/orlando-qiu/">
+            <LinkedInIcon />
+          </a>
+          <a href="https://github.com/orlololol">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -22,20 +31,20 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, HTML, CSS, React Native, NPM, MaterialUI, Yarn,
+              TailwindCSS, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+              NodeJS, GraphQL, MySQL, MongoDB, PostgreSQL, GCP, Firebase, REST
+              API, Twilio, Sendgrid, Stripe
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>JavaScript, Java, Python, C, TypeScript</span>
           </li>
         </ol>
       </div>
